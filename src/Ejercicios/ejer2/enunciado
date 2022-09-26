@@ -1,0 +1,19 @@
+2. En el contexto del desarrollo de un videojuego, se ha creado una clase llamada
+EstadoPartida para persistir el estado actual de una partida, de manera que se pueda
+implementar la funcionalidad de Guardar / Recuperar la partida.
+ De manera
+conceptual, la clase EstadoPartida tan solo dispone de dos atributos numéricos:
+vidasRestantes y pantallaActual. Se pide al desarrollador que implemente la clase
+EstadoPartida y estos dos métodos de la aplicación:
+-void guardarPartida(EstadoPartida objEstadoPartida)
+-EstadoPartida recuperarPartida()
+
+
+1 .- Crear una clase EstadoPartida
+    1.1 - metodo Guardar
+    1.2 - metodo Cargar
+    1.3 - variables numericas : vidasRestantes y pantallaActual
+
+2 .- Clase main
+    2.1 metodo GuardarPartida
+    2.2 metodo RecuperarPartida
