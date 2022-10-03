@@ -44,7 +44,7 @@ public class ficheros_objetos {
                 ous = new MyObjectOutPutStream(fos=  new FileOutputStream(dadosFichero, true));
             }
             else {
-                ous = new ObjectOutputStream(fos=  new FileOutputStream(dadosFichero, true));
+                ous = new ObjectOutputStream(fos=  new FileOutputStream(dadosFichero));
             }
             for (Dado a:dados) {
                 ous.writeObject(a);
